@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
     padding-top: 50px;
 }
-h2{
+.header-1{
     margin-left: 5%;
     color: rgba(34, 34, 34, 0.808);
  
@@ -27,10 +27,8 @@ nav ul{
 /* 1st section css ends */
 
 h1{
-    font-size: 50px;
     color: rgba(34, 34, 34, 0.808);
     font-size: 60px;
-   
 }
 
 .flexible-container{
@@ -57,6 +55,10 @@ h1{
 .section-3{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+
 }
 .section-3 img{
     margin-right: 50px;
@@ -81,4 +83,41 @@ h1{
     width: 1000px;
     background-image: linear-gradient(#f5f7fa,#b8c6db);
 
+}
+
+.header-2{
+    color: rgba(17, 17, 17, 0.808);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* section-4 css */
+.fa-star.filled{
+    color: #d8a20e;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.ratings{
+    color: black;
+}
+.item-rattings p{
+    color: gray;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.item{
+    width: 360;
+    height: 570;
+    background-color: #d8d8d8;
+    padding: 30px 15px;
+    border-radius: 20px;
+}
+.container {
+    margin-left: 10%;
 }
