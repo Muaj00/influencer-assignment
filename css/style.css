@@ -1,0 +1,84 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+h2{
+    margin-left: 5%;
+    color: rgba(34, 34, 34, 0.808);
+ 
+}
+nav li{
+    list-style: none;  
+    margin-right: 30px;
+    padding-top: 10px;
+}
+nav ul{
+    display: flex;
+    margin-right: 15%;
+}
+/* 1st section css ends */
+
+h1{
+    font-size: 50px;
+    color: rgba(34, 34, 34, 0.808);
+    font-size: 60px;
+   
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#ff0066,#ff99cc);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+/* 2nd section css ends*/
+
+.section-3{
+    display: flex;
+    justify-content: center;
+}
+.section-3 img{
+    margin-right: 50px;
+    
+}
+.section-3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#i2{
+    padding-top: 5px;
+}
+#i5{
+    padding-top: 5px;
+}
+.hr1{
+    width: 1000px;
+    background-image: linear-gradient(#f5f7fa,#b8c6db);
+   
+}
+.hr2{
+    width: 1000px;
+    background-image: linear-gradient(#f5f7fa,#b8c6db);
+
+}
