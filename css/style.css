@@ -125,6 +125,14 @@ h1{
     background-color: #d8d8d8;
     padding: 20px 15px;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.25s ease-out;
+}
+
+.item:hover{
+    border: 5px solid transparent;
+    background: linear-gradient(to left, #ccc, #ccc) padding-box,
+      linear-gradient(to left, #743ad5, #d53a9d) border-box;
 }
 .container {
     margin-left: 10%;
@@ -137,7 +145,7 @@ h1{
 
 
 
-/* creative: */
+/* creative section css */
 .creative__banner{
     width: 500px;
     height: 250px;
@@ -170,3 +178,113 @@ h1{
     font-size: 40px;
     text-align: center;
 }
+ /* final section css start */
+
+.final-section{
+    width: 100%;
+    height: 200px;
+    background-color: #003366;
+}
+
+.final-section1{
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+.social-logo {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    font-size: 2rem;
+}
+
+/* responsive css */
+
+@media only screen and (max-width: 34em) {
+        /* 34em = 34*16 = 544px */
+      
+        header {
+          display: none;
+        }
+
+        .flexible-container{
+            margin-top: 4rem;
+            width: 50%
+        }
+        .flexible-container div:nth-child(2) {
+            margin-top: -5rem;
+            width: 100%;
+            position: relative;
+            left: 25%;
+          }
+
+        .flex-wraper{
+            flex-direction: column;
+        }
+
+        .journey__info{
+            width: auto;
+            position: relative;
+            left: 20%;
+        }
+        
+        .journey__img{
+            width: 20rem;
+            height: 5rem;
+            margin-top: 500px;
+        }
+
+        .button{
+            width: 30px;
+            height: 100px;
+            margin-top: 10px;
+            display: grid;
+        }
+
+        .journey__heading{
+            font-size: 1.75rem;
+            width: 25.25rem;
+        }
+
+        .journey__description {
+            font-size: 0.875rem;
+            width: 25rem;
+            text-align: center;
+            margin-top: 1rem;
+            margin-left: -3rem;
+          }
+
+          .items{
+            grid-template-columns: repeat(1, 1fr);
+            width: 90%;
+          }
+
+          .item{
+            margin: 0 auto;
+          }
+
+          .testimonials{
+            align-items: stretch;
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
+
+          .creative {
+            margin: 5rem auto;
+            width: 91%;
+          }
+
+          .creative__banner {
+            width: 100%;
+            margin: 0 auto;
+          }
+
+          .creative__banner div:first-child {
+            display: none;
+          }
+
+          .creative__banner div:last-child {
+            width: 100%;
+          }
+}        
